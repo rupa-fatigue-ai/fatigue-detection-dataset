@@ -20,5 +20,6 @@ Common Python libraries required:
 - seaborn
   
 ## How to Run
-1. Open the notebook:adolescent_fatigue.ipynb
-OR run:python adolescent_fatigue.py
+1. Open the notebook: adolescent_fatigue.ipynb  
+   OR  
+2. Run: python adolescent_fatigue.py
