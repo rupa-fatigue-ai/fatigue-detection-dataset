@@ -21,4 +21,4 @@ Common Python libraries required:
   
 ## How to Run
 1. Open the notebook:adolescent_fatigue.ipynb
-OR run: python adolescent_fatigue.py
+OR run:python adolescent_fatigue.py
