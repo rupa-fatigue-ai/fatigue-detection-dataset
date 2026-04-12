@@ -14,13 +14,13 @@ This repository provides curated multimodal physiological datasets and correspon
   Multimodal dataset containing ECG, EEG, and GSR signals with fatigue labels.
 
   Download link:  
-  https://github.com/rupa-fatigue-ai/fatigue-detection-dataset/blob/main/datasets/worker_dataset/workers_dataset.zip
+  https://github.com/rupa-fatigue-ai/fatigue-detection-dataset/raw/main/datasets/worker_dataset/workers_dataset.zip
 
 - `datasets/housewife_dataset/`  
   Physiological dataset containing ECG and GSR signals with fatigue labels.
 
   Download link:  
-  https://github.com/rupa-fatigue-ai/fatigue-detection-dataset/blob/main/datasets/housewife_dataset/housewives_dataset.zip
+  https://github.com/rupa-fatigue-ai/fatigue-detection-dataset/raw/main/datasets/housewife_dataset/housewives_dataset.zip
 
 ---
 
@@ -53,6 +53,14 @@ Detailed instructions for running the models are provided in the respective READ
 - Model implementations are provided in the `/code` directory  
 - Each model can be executed independently using provided scripts or notebooks  
 - Dependencies are listed in the respective `requirements.txt` files  
+
+---
+
+## Data Availability
+
+The datasets used in this repository are publicly available within the repository under the `/datasets` directory.  
+
+They can be accessed directly using the provided download links.
 
 ---
 
