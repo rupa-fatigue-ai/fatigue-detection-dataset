@@ -1,8 +1,10 @@
-# Fatigue Detection Dataset
+# Multimodal Physiological Dataset and Models for Fatigue Detection
 
 ## Multimodal Physiological Datasets for Fatigue Detection
 
-This repository provides curated multimodal physiological datasets and corresponding machine learning models for fatigue detection research. The datasets include signals such as ECG, EEG, and GSR along with labeled fatigue states, enabling the development and evaluation of predictive models.
+This repository provides curated multimodal physiological datasets along with corresponding machine learning models for fatigue detection research. The datasets include biosignals such as ECG, EEG, and GSR, accompanied by labeled fatigue states, enabling the development, evaluation, and benchmarking of predictive models.
+
+**Keywords:** Fatigue Detection, Multimodal Data, ECG, EEG, GSR, Machine Learning, Domain Adaptation, Physiological Signals
 
 ---
 
@@ -76,7 +78,7 @@ If you use this dataset or code in your research, please cite:
 
 Rupa Verma,  
 "Multimodal Physiological Dataset for Fatigue Detection",  
-GitHub Repository, 2026.  
+GitHub Repository, 2026. Accessed: April 2026.
 Available at: https://github.com/rupa-fatigue-ai/fatigue-detection-dataset  
 
 ---
