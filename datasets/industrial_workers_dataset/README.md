@@ -1,5 +1,3 @@
-<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/7c783911-a8ab-4d21-bed0-ec1cafe0f7ef" /># Industrial Worker Fatigue Dataset
-
 ## Description
 This dataset contains multimodal physiological and environmental signals collected from industrial workers for fatigue detection.
 
