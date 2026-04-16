@@ -23,6 +23,16 @@ This dataset contains multimodal physiological and environmental signals collect
 The full dataset can be accessed using the following Google Drive link:
 https://drive.google.com/drive/folders/133d4LgHQ6PHoftxWmM_0G7kPBhQPWX3R?usp=drive_link
 
+## Dataset
+
+This model uses the Industrial Workers Fatigue Dataset.
+
+- Sample dataset available in:
+  `../../datasets/industrial_workers_dataset/`
+
+- Full dataset:
+  https://drive.google.com/drive/folders/133d4LgHQ6PHoftxWmM_0G7kPBhQPWX3R?usp=drive_link
+
 ## How to Use
 
 1. Download the full dataset from the Google Drive link above.
@@ -36,6 +46,14 @@ https://drive.google.com/drive/folders/133d4LgHQ6PHoftxWmM_0G7kPBhQPWX3R?usp=dri
 ```bash
 python main.py --dataset_csv path/to/workers_dataset.csv --marker_csv path/to/marker_info.csv --output_dir results/
 ```
+
+## Run Example
+
+```bash
+python main.py \
+  --dataset_csv ../../datasets/industrial_workers_dataset/sample_worker_data.csv \
+  --marker_csv ../../datasets/industrial_workers_dataset/marker_info.csv \
+  --output_dir results/
 
 ## Notes
 
