@@ -1,4 +1,4 @@
-# Industrial Worker Fatigue Dataset
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/7c783911-a8ab-4d21-bed0-ec1cafe0f7ef" /># Industrial Worker Fatigue Dataset
 
 ## Description
 This dataset contains multimodal physiological and environmental signals collected from industrial workers for fatigue detection.
@@ -20,3 +20,21 @@ Dataset available at:
 ## Notes
 - Used in TAN + cGAN model
 - Preprocessed and synchronized
+
+## Access
+
+Dataset available at:  
+[Download Industrial Worker Dataset from Google Drive](https://drive.google.com/drive/folders/133d4LgHQ6PHoftxWmM_0G7kPBhQPWX3R?usp=drive_link)
+
+## Usage
+
+After downloading, place the dataset in the following structure:
+
+datasets/
+└── industrial_workers_dataset/
+    ├── workers_dataset.csv
+    └── marker_info.csv
+
+Run the model using:
+
+python main.py --dataset_csv ../../datasets/industrial_workers_dataset/workers_dataset.csv --marker_csv ../../datasets/industrial_workers_dataset/marker_info.csv --output_dir outputs
