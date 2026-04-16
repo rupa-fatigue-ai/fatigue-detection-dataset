@@ -20,46 +20,50 @@ This dataset contains multimodal physiological and environmental signals collect
 
 ## Access
 
-The full dataset can be accessed using the following Google Drive link:
+Full dataset available at:
 https://drive.google.com/drive/folders/133d4LgHQ6PHoftxWmM_0G7kPBhQPWX3R?usp=drive_link
-
-## Dataset
-
-This model uses the Industrial Workers Fatigue Dataset.
-
-- Sample dataset available in:
-  `../../datasets/industrial_workers_dataset/`
-
-- Full dataset:
-  https://drive.google.com/drive/folders/133d4LgHQ6PHoftxWmM_0G7kPBhQPWX3R?usp=drive_link
 
 ## How to Use
 
 1. Download the full dataset from the Google Drive link above.
+
 2. Extract the dataset to your local system.
+
 3. Ensure the following files are available:
 
    * `workers_dataset.csv` (or equivalent combined dataset file)
    * `marker_info.csv`
+
 4. Run the model using:
 
-```bash
+```
 python main.py --dataset_csv path/to/workers_dataset.csv --marker_csv path/to/marker_info.csv --output_dir results/
 ```
 
 ## Run Example
 
-```bash
+```
 python main.py \
   --dataset_csv ../../datasets/industrial_workers_dataset/sample_worker_data.csv \
   --marker_csv ../../datasets/industrial_workers_dataset/marker_info.csv \
   --output_dir results/
+```
+
+## Dataset (Code Integration)
+
+This model uses the Industrial Workers Fatigue Dataset.
+
+* Sample dataset available in:
+  `../../datasets/industrial_workers_dataset/`
+
+* Full dataset:
+  https://drive.google.com/drive/folders/133d4LgHQ6PHoftxWmM_0G7kPBhQPWX3R?usp=drive_link
 
 ## Notes
 
-* This dataset is used in the TAN + cGAN-based fatigue detection model.
-* Data has been preprocessed and synchronized before use.
-* Suitable for both classical machine learning and deep learning approaches.
+* Used in TAN + cGAN-based fatigue detection model
+* Data has been preprocessed and synchronized
+* Suitable for both classical machine learning and deep learning approaches
 
 ## License
 
